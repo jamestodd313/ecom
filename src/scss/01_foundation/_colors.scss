@@ -1,0 +1,24 @@
+//~~~~~~~~~~~~~~~~~~~~~~~ VARIABLES ~~~~~~~~~~~~~~~~~~~~~~~\\
+
+$green: #80b918; // accent color
+$white: #fff; // important text color
+$dark-white: #eaeaea; // main text color
+$accent-grey: #808080; // for sublte text (address, copyright, etc)
+$light-grey: #393939; // for unhovered icon buttons (cart, carousel controls, etc)
+$grey: #1d1d1d; // main background
+$dark-grey: #121212; // nav background
+$black: #000; // nav hover
+
+//////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+//~~~~~~~~~~~~~~~~~~~~~~~ CLASSES ~~~~~~~~~~~~~~~~~~~~~~~\\
+//////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+.text-color{
+    &--primary{color: $dark-white;}
+    &--light{color: $white}
+    &--dark{color: $accent-grey}
+}
+.bg-color{
+    &--primary{background: $grey;}
+    &--accent{background: $green;}
+    &--dark{background: $dark-grey;}
+}
