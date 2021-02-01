@@ -1,0 +1,18 @@
+// hidden classes (apply these to elements. remove class to animate.
+
+
+// all elements must have '.james' class for animations to work
+
+.animated{
+    transition: 0.5s;
+}
+.james{
+    // types of animations
+    &.fade{ opacity: 0 !important; }
+
+    // directions (to [direction])
+    &.right{ transform: translateX(-5vw); }
+    &.left{ transform: translateX(5vw); }
+    &.up{ transform: translateY(5vw); }
+    &.down{ transform: translateY(-5vw); }
+}

@@ -73,6 +73,7 @@ nav{
             background: $dark-grey;
             display: grid;
             place-content: center;
+            transition: 0.5s;
             a{
                 display: block;
                 height: calc(100vw / 14);
